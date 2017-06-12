@@ -26,7 +26,7 @@ def getClips(names):
     return salida
 def createVideo(nombres,video_name,codec_video):
     final_clip = concatenate(getClips(nombres), method = "compose")
-    final_clip.write_videofile(video_name,fps=25,codec_video) # Many options...
+    final_clip.write_videofile(video_name,fps=25,codec=codec_video) # Many options...
     
 
 #clip =ImageClip("fondo.jpg")
