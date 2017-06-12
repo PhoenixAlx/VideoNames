@@ -1,5 +1,5 @@
 # VideoNames
-Little module in python to make a video from a list of names
+Little module in python 3 to make a video from a list of names
 
 ## Install
 
